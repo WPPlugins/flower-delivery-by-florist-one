@@ -1,0 +1,27 @@
+div.florist-one-flower-delivery-container[min-width~="0px"] div.florist-one-flower-delivery-menu-cart{
+  display: none;
+}
+div.florist-one-flower-delivery-container[min-width~="0px"] ul.florist-one-flower-delivery-menu-desktop-menu,
+div.florist-one-flower-delivery-container[min-width~="0px"] li a.florist-one-flower-delivery-menu-cart,
+div.florist-one-flower-delivery-container[min-width~="750px"] .florist-one-flower-delivery-menu-mobile-menu .slicknav_menu{
+  display: none;
+}
+div.florist-one-flower-delivery-container[min-width~="0px"] ul.slicknav_nav li a.florist-one-flower-delivery-menu-cart,
+div.florist-one-flower-delivery-container[min-width~="750px"] ul.florist-one-flower-delivery-menu-desktop-menu,
+div.florist-one-flower-delivery-container[min-width~="750px"] div.florist-one-flower-delivery-menu-cart{
+  display: block;
+}
+div.florist-one-flower-delivery-container[min-width~="750px"] li.florist-one-flower-delivery-menu-cart{
+  display: none!important;
+}
+
+ul.florist-one-flower-delivery-menu-desktop-menu.all{
+  display: block;
+}
+ul.florist-one-flower-delivery-menu-desktop-menu li{
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0!important;
+  content: none!important;
+}
